@@ -54,8 +54,8 @@ def podio_olimpico(tempo_chegada1,tempo_chegada2,tempo_chegada3,nome_corredor1,n
         terceiro_nome = nome_corredor2
         
     return (f"1 - {primeiro_nome} - {menor} minutos\n"
-            f"2 - {segundo_nome}  - {medio} minutos\n" 
+            f"2 - {segundo_nome} - {medio} minutos\n" 
             f"3 - {terceiro_nome} - {maior} minutos\n")
   
   
-print(podio_olimpico(2,1,3,"Ronaldo","Wanderlei Cordeiro de Lima","Eliud Kipchoge"))
+podio_olimpico(3,2,1,"Ronaldo","Wanderlei Cordeiro de Lima","Eliud Kipchoge")
